@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="day10_oop2/src/main/java"/>
+	<classpathentry kind="src" path="day10_oop2/src/test/java"/>
+	<classpathentry kind="src" path="day19_design_pattern/src/main/java"/>
+	<classpathentry kind="src" path="exam_oop1/src/main/java"/>
+	<classpathentry kind="src" path="exam_oop2/src/main/java"/>
+	<classpathentry kind="src" path="homework9/src/main/java"/>
+	<classpathentry kind="src" path="homework9/src/test/java"/>
+	<classpathentry kind="src" path="login/src/main/java"/>
+	<classpathentry kind="output" path="homework9/target/classes"/>
+</classpath>

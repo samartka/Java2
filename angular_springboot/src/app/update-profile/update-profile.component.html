@@ -1,0 +1,24 @@
+<app-update-profile-inner [title]="title" [mainService]="mainService"></app-update-profile-inner>
+<form [formGroup]="form">
+  <div>
+    <div>
+        <div>First Name : <input formControlName="firstname"></div>
+    </div>
+    <div>
+        <div>Last Name :  <input formControlName="lastname"></div>
+    </div>
+    <div>
+        <div>email: <input formControlName="email"></div>
+    </div>
+    <div>
+      <div>
+        gender: 
+        <input type="radio" formControlName="gender" name="gender" value="male"><label> Male</label>
+        <input type="radio" formControlName="gender" name="gender" value="female"><label> Female</label>
+      </div>
+    </div>
+    <div>
+        <button (click)="submitForm()">Update Profile</button>
+    </div>
+  </div>
+</form>

@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<com.codecamp.lab9>",
+            "request": "launch",
+            "mainClass": "com.codecamp.lab9.App",
+            "projectName": "com.codecamp.lab9"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Day9<com.codecamp.lab9>",
+            "request": "launch",
+            "mainClass": "com.codecamp.lab9.Day9",
+            "projectName": "com.codecamp.lab9"
+        }
+    ]
+}

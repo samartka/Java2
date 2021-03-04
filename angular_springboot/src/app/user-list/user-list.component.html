@@ -1,0 +1,24 @@
+<div *ngFor="let user of users" style="border: 1px solid gray;margin:5px;">
+  <div>
+    <b>ID: </b>{{user.userId}}
+  </div>
+  <div>
+    <b>First Name: </b>{{user.firstName}}
+  </div>
+  <div>
+    <b>Last Name: </b>{{user.lastName}}
+  </div>
+  <div>
+    <b>Email: </b>{{user.email}}
+  </div>
+  <div>
+    <b>birthDate: </b>{{user.birthDate}}
+  </div>
+  <div>
+    <b>Gender: </b>{{user.gender}}
+  </div>
+  <div style="padding:4px; text-align: right;">
+    <button style="background:blue;color: white;" (click)="viewDetail(user)">View More</button>
+    <!-- <button style="background:red;color: white;" (click)="loginAsUser(user)">Login as this user</button> -->
+  </div>
+</div>
