@@ -14,6 +14,9 @@ public class CEO extends Employee {
     public void hello() {
         System.out.println("Hi, nice to meet you. "+this.firstname+"!");
     }
+    public void orderWebsite( IWebsiteCreator creator) {
+    	creator.createWebsite("some template", "Codecamp Codecamp3");
+    }
 }
    
    

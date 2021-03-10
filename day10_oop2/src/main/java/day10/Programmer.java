@@ -1,6 +1,9 @@
 package day10;
+import day10.my_interface.IWebsiteCreator;
+import day10.my_interface.IWindowsInstaller;
 
-public class Programmer extends Employee {
+
+public class Programmer extends Employee implements IWebsiteCreator, IWindowsInstaller {
 	public String[] compSkill;
 	
 	public Programmer(String firstnameInput, String lastnameInput, int salaryInput) {
@@ -27,4 +30,13 @@ public class Programmer extends Employee {
 		System.out.println("I'm installing window " + version + " using product key : " + productKey);
 	}
 
+	public void formatWindows(String drive) {
+		System.out.println("I'm formatting window on drive " + drive);
+		
+	}
+	public int getLastInstalledWindowsVersion() {
+		return 10;
+	}
+	
+	
 }
